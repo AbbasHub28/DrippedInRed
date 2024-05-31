@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Style.css" rel="stylesheet">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo">
+                <a href="#">DrippedInRed</a>
+            </div>
+            <ul>
+                <li class="innav"><a href="#">Home</a></li>
+                <li class="innav"><a href="#feet">About Us</a></li>
+                <li class="innav"><a href="#feet">Contact Us</a></li>
+                <li class="innav"><a href="#footer">Apply</a></li>
+                <button><a href="#info">Sign In</a></button>
+                <button ><a onclick="logout()">Sign Out</a></button>
+            </ul>
+        </div>
+    </nav>
+        <div class="welcometext">Welcome, feel free to pick a category or scroll through to check everything out!</div>
+        <br><br><br>
+        <div>
+                    <table class="shopping-cart">
+
+                        <tr id="row">Cart:
+                        <td>Price</td>
+                        <td>Total</td>
+                        </tr>
+                    
+                    
+                        </table>
+                  </div>
+        <div>
+            <br><br>
+            <div class="leftt">
+                <img src="pexels-thelazyartist-1342609.jpg">
+                <li class="cats"><a class="design" href="#Men" class="sect">Men's Clothing Section</a></li>
+            </div>
+            <div class="rightt">
+                <img src="istockphoto-1342849839-612x612.jpg">
+                <li class="cats"><a class="design" href="#Women" class="sect">Women's Clothing Section</a></li>
+            </div>
+            <div class="centerr">
+                <img src="istockphoto-931577634-612x612.jpg">
+                <li class="cats"><a class="design" href="#Children" class="sect">Children's Clothing Section</a></li>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <div class="ourpicks">
+        <div class="first"><h1>Our Best Picks!</h1></div>
+        <div class="leftt"><img src="istockphoto-685168074-612x612.jpg">
+            <h3>Our newest collection of shoes for Men!</h3>
+        </div>
+        <div class="rightt"><img src="istockphoto-1180837581-612x612.jpg">
+            <h3>Our newest collection of shoes for Children!</h3></div>
+        <div class="centerr"><img src="istockphoto-1339440288-612x612.jpg">
+            <h3>Our newest collection of shoes for Women!</h3></div></div>    
+    </div>
+    <br><br>
+    <div id="Men">
+        <h1>Men's Section</h1>
+        <div ><h2>Formal Wear</h2></div>
+        <div class="leftt"><img src="istockphoto-1368015386-612x612.jpg">
+            <p class="desc" class="sect">Shoes specifically tailored for formal event such as weddings and meetings.</p>
+            <p class="price" id="30">$30.00</p>
+            <button class="addtocart"><a ><img src="download__4_-removebg-preview.png"onclick=AddToCart(30)></a></button>
+            
+        </div>
+        <div class="rightt"><img src="istockphoto-1080910832-612x612.jpg">
+            <p class="desc-short" class="sect">Formal shirt perfect for work or functions. Can be worn on its own or with a suit.</p>
+            <p class="price" id="20">$20.00</span></p>
+        <button class="addtocart"><a ><img src="download__4_-removebg-preview.png"onclick=AddToCart(20)></a></button>
+            </div>
+        <div class="centerr"><img src="istockphoto-1009433752-612x612.jpg">
+            <p class="desc-shorter" class="sect">Full suit and shirt created by our best tailors.</p>
+            <p class="price" id="300">$300.00</p>
+            <button class="addtocart"><a ><img src="download__4_-removebg-preview.png"onclick=AddToCart(300)></a></button>
+            </div>
+            <div>
+                <div><h2>Casual Wear</h2></div>
+                <div class="leftt" ><img src="istockphoto-1324558913-612x612.jpg">
+                    <p class="desc-short2" class="sect">Summer shirt available in a variety of colors.</p>
+                    <p class="price" id="15">$15.00</p>
+                    <button class="addtocart"><a ><img src="download__4_-removebg-preview.png"onclick=AddToCart(15)></a></button>
+                    
+                </div>
+                <div class="rightt"><img src="istockphoto-1181269692-612x612.jpg">
+                    <p class="desc" class="sect">Hoodies perfect for the blistering cold of winter. Available in multiple colors.</p>
+                    <p class="price" id="35">$35.00</span></p>
+                <button class="addtocart"><a ><img src="download__4_-removebg-preview.png"onclick=AddToCart(35)></a></button>
+                    </div>
+                <div class="centerr"><img src="istockphoto-825834802-612x612.jpg">
+                    <p class="desc-short2" class="sect"> Casual shirts for the heat of summer.</p>
+                    <p class="price" id="20">$20.00</p>
+                    <button class="addtocart"><a ><img src="download__4_-removebg-preview.png"onclick=AddToCart(20)></a></button>
+                    </div>
+            </div>
+            <div>
+                <div><h2>Sports Wear</h2></div>
+                <div class="leftt"><img src="istockphoto-905973914-612x612.jpg">
+                    <p class="desc-short" class="sect">Running shoes perfect for hikes, marathons and sport activities.</p>
+                    <p class="price" id="30">$30.00</p>
+                    <button class="addtocart"><a><img src="download__4_-removebg-preview.png"onclick=AddToCart(30)></a></button>
+                    
+                </div>
+                <div class="rightt"><img src="istockphoto-1072200596-612x612.jpg">
+                    <p class="desc-short2" class="sect">Gym compression shirts to boost your workouts!.</p>
+                    <p class="price" id="35">$35.00</p>
+                <button class="addtocart"><a ><img src="download__4_-removebg-preview.png"onclick=AddToCart(35)></a></button>
+                    </div>
+                <div class="centerr"><img src="istockphoto-1348494885-612x612.jpg">
+                    <p class="desc-short" class="sect">Sweatproof shirts made using new and foulproof techniques.</p>
+                    <p class="price" id="40">$40.00</p>
+                    <button class="addtocart"><a ><img src="download__4_-removebg-preview.png"onclick=AddToCart(40)></a></button>
+                    </div>
+            </div>
+        </div>    
+            <div id="Women">
+                <div><h1>Women's Section</h1></div>
+                <div><h2>Dresses</h2></div>
+                <div class="leftt"><img src="istockphoto-1393067608-612x612.jpg">
+                    <p class="desc" class="sect">Beautiful dresses for beautiful women. Works best in events and parties!</p>
+                    <p class="price" id="300">$300.00</p>
+                    <button class="addtocart"><a ><img src="download__4_-removebg-preview.png"onclick=AddToCart(300)></a></button>
+                    
+                </div>
+                <div class="rightt"><img src="istockphoto-1186936121-612x612.jpg">
+                    <p class="desc-short2" class="sect">Dresses that can be worn both casually and formally.</p>
+                    <p class="price" id="120">$120.00</span></p>
+                <button class="addtocart"><a ><img src="download__4_-removebg-preview.png"onclick=AddToCart(120)></a></button>
+                    </div>
+                <div class="centerr"><img src="istockphoto-186543936-612x612.jpg">
+                    <p class="desc-shorter" class="sect">Dresses for weddings.</p>
+                    <p class="price" id="450">$450.00</p>
+                    <button class="addtocart"><a ><img src="download__4_-removebg-preview.png"onclick=AddToCart(450)></a></button>
+                    </div>
+                    <div>
+                        </div>
+                        <div><h2>Casual Wear</h2>
+                            <div class="leftt"><img src="istockphoto-1351047032-612x612.jpg">
+                                <p class="desc-short2" class="sect">Sweet,Simple and absolutely eye grabbing!</p>
+                                <p class="price" id="40">$40.00</p>
+                                <button class="addtocart"><a ><img src="download__4_-removebg-preview.png"onclick=AddToCart(40)></a></button>
+                                
+                            </div>
+                            <div class="rightt"><img src="istockphoto-696948540-612x612.jpg">
+                                <p class="desc-short2" class="sect">Summer jackets that make you look glamerous.</p>
+                                <p class="price" id="30">$30.00</span></p>
+                            <button class="addtocart"><a ><img src="download__4_-removebg-preview.png"onclick=AddToCart(30)></a></button>
+                                </div>
+                            <div class="centerr"><img src="istockphoto-1333321391-612x612.jpg">
+                                <p class="desc-short2" class="sect">Pants that look great in all seasons.</p>
+                                <p class="price" id="25">$25.00</p>
+                                <button class="addtocart"><a ><img src="download__4_-removebg-preview.png"onclick=AddToCart(25)></a></button>
+                                </div>
+                                <div>
+                                    <div><h2>Hijabi Wear</h2>
+                                        <div class="leftt"><img src="istockphoto-1209189167-612x612.jpg">
+                                            <p class="desc-short2" class="sect">Hijabi head scarfs available in many different colors.</p>
+                                            <p class="price" id="30">$30.00</p>
+                                            <button class="addtocart"><a ><img src="download__4_-removebg-preview.png"onclick=AddToCart(30)></a></button>
+                                            
+                                        </div>
+                                        <div class="rightt"><img src="istockphoto-472658250-612x612.jpg">
+                                            <p class="desc-short2" class="sect">Variety of Niqab available in different sizes.</p>
+                                            <p class="price" id="20">$20.00</span></p>
+                                        <button class="addtocart"><a ><img src="download__4_-removebg-preview.png"onclick=AddToCart(20)></a></button>
+                                            </div>
+                                        <div class="centerr"><img src="istockphoto-866498360-612x612.jpg">
+                                            <p class="desc-short2" class="sect">Hijabi sportswear available for all sorts of sports.</p>
+                                            <p class="price" id="35">$35.00</p>
+                                            <button class="addtocart"><a ><img src="download__4_-removebg-preview.png"onclick=AddToCart(35)></a></button>
+                                            </div>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    </div>
+                                
+            <div id="Children">            
+             <div><h1>Children's Section</h1></div>
+                <div><h2>School Clothes</h2>
+                <div class="leftt"><img src="istockphoto-1325921802-612x612.jpg">
+                    <p class="desc-short2" class="sect">School Clothes available for children of age 3-10</p>
+                    <p class="price" id="50">$50.00</p>
+                    <button class="addtocart"><a ><img src="download__4_-removebg-preview.png"onclick=AddToCart(50)></a></button>
+                    
+                </div>
+                <div class="rightt"><img src="istockphoto-1275053498-612x612.jpg">
+                    <p class="desc-short2" class="sect">Winter and Sumemr clothes for teenagers.</p>
+                    <p class="price" id="50">$50.00</span></p>
+                <button class="addtocart"><a ><img src="download__4_-removebg-preview.png"onclick=AddToCart(50)></a></button>
+                    </div>
+                <div class="centerr"><img src="istockphoto-499507698-612x612.jpg">
+                    <p class="desc-shorter" class="sect">Sports clothes for kids of all ages.</p>
+                    <p class="price" id="60">$60.00</p>
+                    <button class="addtocart"><a ><img src="download__4_-removebg-preview.png"onclick=AddToCart(60)></a></button>
+                    </div>
+                    <div>
+                        </div>
+                        <div><h2>General Clothes</h2>
+                            <div class="leftt"><img src="istockphoto-1399611777-612x612.jpg">
+                                <p class="desc-short2" class="sect">Casual clothes for children to brighten their faces!</p>
+                                <p class="price" id="30">$30.00</p>
+                                <button class="addtocart"><a ><img src="download__4_-removebg-preview.png"onclick=AddToCart(30)></a></button>
+                                
+                            </div>
+                            <div class="rightt"><img src="istockphoto-518868426-612x612.jpg">
+                                <p class="desc-short2"class="sect">Casual shoes designed for kids.</p>
+                                <p class="price" id="100">$100.00</span></p>
+                            <button class="addtocart"><a ><img src="download__4_-removebg-preview.png"onclick=AddToCart(100)></a></button>
+                                </div>
+                            <div class="centerr"><img src="istockphoto-1085263948-612x612.jpg">
+                                <p class="desc-short2" class="sect">Casual clothes for teens to use on normal days.</p>
+                                <p class="price" id="55">$55.00</p>
+                                <button class="addtocart"><a><img src="download__4_-removebg-preview.png"onclick=AddToCart(55)></a></button>
+                                </div>
+                                <div>
+                                    <div><h2>Children Shoes</h2>
+                                        <div class="leftt"><img src="istockphoto-940488036-612x612.jpg">
+                                            <p class="desc-short2"class="sect">Running shoes for kids between 3 and 10.</p>
+                                            <p class="price" id="20">$20.00</p>
+                                            <button class="addtocart"><a ><img src="download__4_-removebg-preview.png"onclick=AddToCart(20)></a></button>
+                                            
+                                        </div>
+                                        <div class="rightt"><img src="istockphoto-531912454-612x612.jpg">
+                                            <p class="desc-short2"class="sect">Running shoes for teens.</p>
+                                            <p class="price" id="50">$50.00</span></p>
+                                        <button class="addtocart"><a><img src="download__4_-removebg-preview.png"onclick=AddToCart(50)></a></button>
+                                            </div>
+                                        <div class="centerr"><img src="istockphoto-609696566-612x612.jpg">
+                                            <p class="desc-short2"class="sect">Formal shoes for both kids and teens.</p>
+                                            <p class="price" id="80">$80.00</p>
+                                            <button class="addtocart"><a><img src="download__4_-removebg-preview.png"onclick=AddToCart(80)></a></button>
+                                            </div>
+                                            <div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                            </div>
+                            <div>
+                                <h2> A litte about us: We are a brand new company founded in 2024 with the aim
+                                    of making clothing and fashion easily accessible, fruitful and exciting for 
+                                    customers of all ages and genders. 
+                                </h2>
+                            </div>
+                <div id="info">
+                    <form action="SigninInfo.php" method="post">
+                        <p class="int">Enter your email to sign in: <input class="in" type="email" for="CustEmail"> </p>
+                        <p class="int">Enter your password <input class="in" type="email" for="PASSWORD"></p></form>
+                </div>
+    </div>
+    
+</body>
+<footer id="feet">
+    <p><span style="font-size: 60px;">Enjoy your shopping!</span> </p><br>
+    <p><span style="font-size: 60px;">Feel free to send us an email to apply for a job or if you have any complaints!</span> </p><br>
+     | <a class="footsize">Contact Us: DIR@gmail.com</a> | </p> <br/>
+    <p><span style="font-size: 40px;">Copyright &copy;  2024 DrippedInRed </span> </p> </footer>
+</html>
